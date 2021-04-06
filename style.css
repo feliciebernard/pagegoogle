@@ -1,0 +1,124 @@
+
+body {
+	font-family: arial;
+}
+
+#onglets {
+	display: flex;
+	justify-content: flex-end;
+	line-height: 2em;
+}
+
+#onglets a {
+		text-decoration: none;
+		color: #000000DE;
+		font-size: 13px;
+		padding-right: 15px
+}
+
+#onglets a:hover {
+	text-decoration: underline;
+}
+
+#onglets img:hover {
+	background-color: #f2f2f2;
+	border-radius: 50%;
+}
+
+.compte img {
+border-radius: 50%;
+}
+
+.applications {
+	font-size: 20px;
+	font-weight: large;
+}
+
+#principal {
+	display: flex;
+	align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+#barre {
+display: flex;
+justify-content: space-around;
+border: solid #f2f2f2 1px;
+width: 35em;
+border-radius: 3rem;
+}
+
+
+#barre input {
+	  height: 34px;
+	  width: 487px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+#barre input:hover {
+    border: none;
+}
+
+#barre img {
+	width: 2em;
+}
+
+#boutons {
+	display: flex;
+	align-items: center;
+}
+
+#boutons button {
+	color: #3c4043;
+	background-color: #f8f9fa;
+	border: 1px solid #f8f9fa ;
+	padding: 5px 16px;
+	border: solid #fff .5em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #70757a;
+}
+
+footer a {
+		text-decoration: none;
+		color: #70757a;
+		padding-right: 30px
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+#pays {
+	display: flex;
+	justify-content: flex-start;
+	    background-color: #f2f2f2;
+padding-left: 30px
+
+}
+#carbonne {
+	display: flex;
+	justify-content: center;
+	    background-color: #f2f2f2;
+	    	line-height: 3em;
+}
+#entreprise {
+	display: flex;
+	justify-content: center;
+	background-color: #f2f2f2;
+	line-height: 3em;
+}
+#client {
+	display: flex;
+	justify-content: center;
+	    background-color: #f2f2f2;
+	    	line-height: 3em;
+}
